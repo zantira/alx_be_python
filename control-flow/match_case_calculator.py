@@ -8,11 +8,11 @@ operation = input("Choose the operation (+,-,*,/): ")
 
 match operation:
     case "+":
-        print("The Results is", num1 + num2)
+        print("The results is", num1 + num2)
     case "-":
-        print("The Results is", num1 - num2)
+        print("The results is", num1 - num2)
     case "*":
-        print("The Results is", num1 * num2)
+        print("The results is", num1 * num2)
     case "/":
         if num2 == 0:
             print("Cannot divide by zero")
