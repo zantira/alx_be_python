@@ -4,9 +4,9 @@ num1 = int(input("Enter the first number: "))
 
 num2 = int(input("Enter the second number: "))
 
-select_operator = input("Choose the operation (+,-,*,/): ")
+operator = input("Choose the operation (+,-,*,/): ")
 
-match select_operator:
+match operator:
     case "+":
         print("The Results is", num1 + num2)
     case "-":
