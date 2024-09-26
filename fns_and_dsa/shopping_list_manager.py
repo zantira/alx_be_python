@@ -14,7 +14,7 @@ def display_menu():
     return choice
 
 def add_item(shopping_list):
-    item = input("Enter item: ")
+    item = input("Enter the item to add: ")
     shopping_list.append(item)
     print("Item added to list.")
 
