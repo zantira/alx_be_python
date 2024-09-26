@@ -1,6 +1,6 @@
 #In this script, define a function that performs basic arithmetic operations. This function, perform_operation, will be imported and used in a separate main.py script, which we provide.
 
-def perfom_operation(num1, num2, operation):
+def perform_operation(num1, num2, operation):
     if operation == "add":
         return num1 + num2
     elif operation == "subtract":
