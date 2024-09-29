@@ -1,8 +1,8 @@
 #This script will define functions to convert temperatures between Celsius and Fahrenheit
 #The script will ask the user to input the temperature in Celsius or Fahrenheit
 
-FAHRENHEIT_TO_CELSIUS_FACTOR =  (5 / 9) 
-CELCIUS_TO_FAHRENHEIT_FACTOR = (9 / 5)
+FAHRENHEIT_TO_CELSIUS_FACTOR =  5 / 9
+CELCIUS_TO_FAHRENHEIT_FACTOR = 9 / 5
 
 def celsius_to_fahrenheit(celsius):
     fahrenheit = (celsius * CELCIUS_TO_FAHRENHEIT) + 32
