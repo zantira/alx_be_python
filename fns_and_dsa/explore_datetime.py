@@ -10,8 +10,8 @@ time_now = datetime.now()
 
 def display_current_datetime():
   
-    current_time = datetime.now()
-    return current_time.strftime("%Y-%m-%d" "%H:%M:%S")
+    current_time = datetime.now().strftime("%Y-%m-%d" "%H:%M:%S")
+    return current_time
 
 print("Current date and time : ",display_current_datetime())
 
@@ -24,7 +24,7 @@ def calculate_future_date(number_of_days):
     
     
     future_date = datetime.now() + timedelta(days=number_of_days)
-    return future_date.strftime("%Y-%m-%d")
+    return future_date.strftime("%Y-%m-%d" "%H:%M:%S")
 
 print("Future date : ",calculate_future_date(number_of_days))
 
