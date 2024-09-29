@@ -19,7 +19,7 @@ def display_current_datetime():
         None
     """
     current_time = datetime.now()
-    print("Current date and time: ", current_time.strftime("%Y-%m-%d") + " " + current_time.strftime("%H:%M:%S"))
+    print("Current date and time: ", current_time.strftime("%Y-%m-%d" "%H:%M:%S")) #+ " " + current_time.strftime("%H:%M:%S"))
 
 display_current_datetime()
 
