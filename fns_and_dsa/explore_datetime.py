@@ -37,7 +37,7 @@ def calculate_future_date(number_of_days):
         str: The future date in the format "%d-%m-%Y".
     """
     future_date = datetime.now() + timedelta(days=number_of_days)
-    return future_date.strftime("%Y-%m-%d")
+    return future_date.strftime("%Y-%m-%d" "%H:%M:%S")
 
 print("Future date : ",calculate_future_date(number_of_days))
 
