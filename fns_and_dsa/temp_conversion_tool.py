@@ -13,14 +13,14 @@ def fahrenheit_to_celsius(fahrenheit):
     return celsius
 
 temperature = int(input("Enter the temperature to convert: "))
-celcius_or_fahrenheit = input("Is the temperature in Celsius or Fahrenheit? C/F: ")
+celsius_or_fahrenheit = input("Is this temperature in Celsius or Fahrenheit? C/F: ")
 
 if celcius_or_fahrenheit == "C":
     result =(celsius_to_fahrenheit(temperature))  
     print(f"{temperature}°C is {result}°F")
 
     
-elif celcius_or_fahrenheit == "F":
+elif celsius_or_fahrenheit == "F":
     result =(fahrenheit_to_celsius(temperature))
     print(f"{temperature}°F is {result}°C")
 
