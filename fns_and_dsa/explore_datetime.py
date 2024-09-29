@@ -1,4 +1,4 @@
-git """"
+""""
  Python’s datetime module by writing a script 
  that performs specified operations with dates and times.
 """
@@ -8,7 +8,7 @@ from datetime import datetime
 today = date.today()
 time_now = datetime.now()
 
-def display_current_date():
+def display_current_datetime():
     """
     Displays the current date and time.
 
@@ -21,7 +21,7 @@ def display_current_date():
     current_time = datetime.now()
     print("Current date and time: ", current_time.strftime("%y-%d-%m") + " " + current_time.strftime("%H:%M:%S"))
 
-display_current_date()
+display_current_datetime()
 
 from datetime import datetime, timedelta
 
