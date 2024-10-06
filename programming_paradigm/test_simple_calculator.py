@@ -10,7 +10,7 @@ class Runtest(unittest.TestCase):
         self.a = 4
         self.b = 2
 
-    def test_add_postive(self):
+    def test_addition_postive(self):
         result = self.calculator.add(self.a, self.b)
         self.assertEqual(result, 6)
 
