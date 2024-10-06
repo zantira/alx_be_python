@@ -24,9 +24,9 @@ class Runtest(unittest.TestCase):
 
     #unittest for subract() function
     
-    def test_subtract_positive(self):
+    def test_subtraction(self):
         result = self.calc.subtract(self.a , self.b)
-        self.assertEqual(result, 2)
+        self.assertEqual(self.calc.subtract(self))
 
     def test_subtract(self):
         result = self.calc.subtract(-self.a, self.b)
