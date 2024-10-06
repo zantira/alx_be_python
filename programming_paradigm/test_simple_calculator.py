@@ -10,9 +10,9 @@ class Runtest(unittest.TestCase):
         self.a = 4
         self.b = 2
 
-    def test_addition_postive(self):
+    def test_addition(self):
         result = self.calc.add(self.a, self.b)
-        self.assertEqual(result, 6)
+        self.assertEqual(self.calc.add(self))
 
     def test_add_negative(self):
         result = self.calc.add(-self.a, self.b)
@@ -28,9 +28,9 @@ class Runtest(unittest.TestCase):
         result = self.calc.subtract(self.a , self.b)
         self.assertEqual(result, 2)
 
-    def test_subtract_negative(self):
+    def test_subtract(self):
         result = self.calc.subtract(-self.a, self.b)
-        self.assertEqual(result, -6)
+        self.assertEqual(self.calc.subtract(self))
 
     def test_subtract_negative_negative(self):
         result = self.calc.subtract(-self.a, -self.b)
