@@ -39,9 +39,9 @@ class Runtest(unittest.TestCase):
 
     #unittest for multiply() function
 
-    def test_multiply_positive(self):
+    def test_multiplication(self):
         result = self.calc.multiply(self.a , self.b)
-        self.assertEqual(result, 8)
+        self.assertEqual(self.calc.multiply(self))
     
     def test_multiply_negative(self):
         result = self.calc.multiply(-self.a, self.b)
@@ -50,9 +50,9 @@ class Runtest(unittest.TestCase):
 
     #unittest for the divide() function
 
-    def test_divide_positive(self):
+    def test_division(self):
         result = self.calc.divide(self.a, self.b)
-        self.assertEqual(result, 2)
+        self.assertEqual(self.calc.divide(self))
 
     def test_divide_negative(self):
         result  = self.calc.divide(-self.a, self.b)
