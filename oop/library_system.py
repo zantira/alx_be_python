@@ -24,7 +24,7 @@ class Library:
     def __init__(self, books  = None):
         if books is None:
             books = []
-        self.books = books
+        self.books = []
     def __str__(self):
         return f"{self.books}"
 
