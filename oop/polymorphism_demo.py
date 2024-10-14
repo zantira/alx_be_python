@@ -12,6 +12,7 @@ class Shape:
 
 class Rectangle(Shape):
     def area(self, length, width):
+        super().__init__()
         self.length = length
         self.width = width
         return self.length * self.width
@@ -19,11 +20,11 @@ class Rectangle(Shape):
 
 class Circle(Shape):
     def area(self, radius):
+        super().__init__()
         self.radius = radius
-        return math.pi * [radius**2]
+        return math.pi * (self.radius**2)
     
-cirlce = Circle()
-print(cirlce.area(7))
+
 
 # from polymorphism_demo import Shape, Rectangle, Circle
 # import math
