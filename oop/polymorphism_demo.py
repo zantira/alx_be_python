@@ -20,7 +20,7 @@ class Rectangle(Shape):
 class Circle(Shape):
     def area(self, radius):
         self.radius = radius
-        return math.pi * (radius)**2
+        return math.pi * [radius]**2
     
 cirlce = Circle()
 print(cirlce.area(7))
