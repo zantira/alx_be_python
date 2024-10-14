@@ -21,9 +21,9 @@ class PrintBook(Book):
 #composing a class using Bool, Ebook and Printbook
 
 class Library:
-    def __init__(self, books):
-        if books is None:
-            books = []
+    def __init__(self):
+        # if books is None:
+        #     books = []
         self.books = []
     def __str__(self):
         return f"{self.books}"
