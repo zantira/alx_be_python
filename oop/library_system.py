@@ -25,6 +25,8 @@ class Library:
         if books is None:
             books = []
         self.books = books
+    def __str__(self):
+        return f"{self.books}"
 
     def add_book(self, book):
         return self.books.append(book)
